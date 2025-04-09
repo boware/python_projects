@@ -71,11 +71,3 @@ For a more interactive experience, you can explore the project using the provide
 
 You can install all dependencies by running pip install -r requirements.txt.
 
-## Conclusion
-This project demonstrates the end-to-end pipeline for predicting credit risk. It covers data exploration, preprocessing, feature engineering, model training, and evaluation.
-
-Feel free to explore the code, improve it, or deploy it for real-world use!
-
-- yaml
-- Copy
-- Edit
