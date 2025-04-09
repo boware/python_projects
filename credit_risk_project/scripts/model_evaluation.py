@@ -7,7 +7,7 @@ def evaluate_model():
     model = joblib.load('credit_risk_model.pkl')
 
     # Load the testing data
-    df = pd.read_csv('data/feature_engineered_test.csv')
+    df = pd.read_csv('data/feature_engineered_train.csv')
     X_test = df.drop('TARGET', axis=1)
     y_test = df['TARGET']
 

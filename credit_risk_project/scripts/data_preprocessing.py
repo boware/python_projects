@@ -18,7 +18,7 @@ def preprocess_data(df):
 
 def load_and_preprocess():
     # Load dataset
-    df = pd.read_csv('data/application_train.csv')  # Modify to correct dataset path
+    df = pd.read_csv('home-credit-default-risk.csv')  
 
     # Preprocess data
     df = preprocess_data(df)
